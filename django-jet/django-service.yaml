@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: oscar-django-service
+  labels:
+    app: django
+    component: oscar
+    tier: frontend
+spec:
+  selector:
+    app: django
+  ports:
+  - protocol: TCP
+    port: 8000
+  type: NodePort
