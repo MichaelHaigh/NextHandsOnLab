@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: django-env
+  namespace: default
+data:
+  STATIC_BUCKET: "InsertBucketNameHere"
+  S3_ENDPOINT_URL: "ihttp://10.4.222.151:7200/"
+  DATABASE_NAME: "oscar_django"
