@@ -8,6 +8,6 @@ metadata:
     tier: backend
 spec:
   type: ExternalName
-  externalName: 10.4.220.230
+  externalName: 10.X.Y.Z
   ports:
   - port: 5432
