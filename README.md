@@ -10,6 +10,4 @@ As you may be aware, containers are ephemeral, so no data should persist within 
 
 Beyond simple storage, databases are the pivotal component for many applications, including cloud native applications.  However, databases are complex entities in regards to provisioning and lifecycle management, often due a wide variety of software and hardware technologies.  Nutanix Era is a simple and elegant database management solution that provides database administrators the same ease of use that virtual infrastructure administrators enjoy.  It combines day 1 operations such as 1-click database provisioning, and day 2 operations such as database backup and recovery, and data clone management.
 
-![Cloud Native Oscar Application Architecture](images/oscar-arch.png "Cloud Native Oscar Application Architecture") 
-
 Today’s lab will have you deploy a Karbon based Kubernetes cluster, provision an Era DB, create Nutanix Buckets object storage, and deploy a fully functional cloud native application utilizing all of these components.
