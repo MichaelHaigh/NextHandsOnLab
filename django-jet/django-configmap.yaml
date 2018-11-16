@@ -5,5 +5,5 @@ metadata:
   namespace: default
 data:
   S3_ENDPOINT_URL: "http://10.21.51.41:7200/"
-  STATIC_BUCKET: "oscarstatic-mah"
-  DATABASE_NAME: "oscar_django_XXX"
+  STATIC_BUCKET: "oscarstatic-xxx"
+  DATABASE_NAME: "oscar_django_xxx"
