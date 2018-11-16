@@ -4,6 +4,6 @@ metadata:
   name: django-env
   namespace: default
 data:
-  S3_ENDPOINT_URL: "http://10.4.222.151:7200/"
+  S3_ENDPOINT_URL: "http://10.21.51.41:7200/"
   STATIC_BUCKET: "oscarstatic-mah"
   DATABASE_NAME: "oscar_django_XXX"
